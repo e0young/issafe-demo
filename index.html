@@ -709,6 +709,8 @@ body[data-cover="1"] .count{color:#7FA0BE}
 .end .stack{gap:.6rem}
 @media (max-width:640px){ .end .inner{gap:.8rem} .end .qh{margin-top:.2rem} }
 
+.where .bldg{text-decoration:underline; text-decoration-thickness:1.5px; text-underline-offset:.22em}
+@media (max-width:640px){ .where .w-sep{display:none} }
 /* ── 목록 ── */
 .stack{display:flex; flex-direction:column; gap:.85rem}
 .item{
@@ -1097,7 +1099,7 @@ ul.dash li::before{
       <div class="cover-bottom">
         <div class="cover-meta">
           <p class="when">2026년 10월 8일(목) 11:00 ~ 12:30</p>
-          <p class="where">한국기계연구원 1층 대회의실 · 대전 유성구 가정북로 156</p>
+          <p class="where">한국기계연구원 <u class="bldg">R1동(본관동)</u> 1층 대회의실<span class="w-sep"> · </span><br class="m-br"><span class="nb">대전 유성구 가정북로 156</span></p>
         </div>
         <p class="cover-note">당일 시연을 편히 보실 수 있도록 개발 배경과 구성을 정리했습니다. <br class="m-br">3분이면 읽으실 수 있습니다.</p>
         <div class="swipe">
